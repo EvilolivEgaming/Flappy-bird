@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #e8eef6;
+}
+
+.game-shell {
+  padding: 16px;
+}
+
+#gameCanvas {
+  display: block;
+  width: 400px;
+  height: 600px;
+  border: 3px solid #2f3f4f;
+  border-radius: 8px;
+  background: #9edcff;
+}
